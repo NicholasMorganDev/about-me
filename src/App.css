@@ -1,0 +1,47 @@
+*, *:after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+}
+
+.hero-text {
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 900;
+  padding: 15px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.container {
+  padding: 30px;
+}
+
+.carousel-container {
+  padding: 15px;
+}
+
+.quote-container p {
+  font-size: clamp(23px, 4vw, 26px);
+  font-weight: 700;
+}
+
+.quote-container q {
+  font-size: 105%;
+}
+
+/* .grid-container {
+  background-color: coral;
+}
+
+.grid-container h2 {
+  color: white;
+} */

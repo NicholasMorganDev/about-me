@@ -1,8 +1,18 @@
-export default function  Footer () {
+import { Col, Container, Row } from "react-bootstrap";
 
+export default function  Footer () {
+  const currentYear = new Date().getFullYear();
+  const gitHubUrl = "https://github.com/bocacode/NicholasMorganDev"
   return (
     <footer>
-      <h2>Footer</h2>
+      <Container>
+        <Row>
+          <Col className="text-center">
+            <p>&copy; {currentYear} Nicholas Morgan <br/>
+            <a href={gitHubUrl} rel='noreferrer' target="_blank">Code In Github</a></p>
+          </Col>
+        </Row>
+      </Container>
     </footer>
   )
 }
