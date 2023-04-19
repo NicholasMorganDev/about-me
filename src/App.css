@@ -4,8 +4,8 @@
   box-sizing: inherit;
 }
 
-body {
-  background-color: black;
+.App {
+  background-color: whitesmoke;
 }
 
 .hero-text {
