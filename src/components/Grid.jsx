@@ -13,7 +13,7 @@ export default function Grid () {
 
           <Col sm={12} md={4}>
             <h2>Upcoming Project Ideas?</h2>
-            <p></p>
+            <p>I don't have a huge project idea yet, I'm still trying to improve my coding skills. But I do know that whatever I plan on doing for my project will be a full running website, would hate to put my best into something that is just going to sit on a shelf in my collection.</p>
           </Col>
 
           <Col>

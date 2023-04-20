@@ -9,33 +9,30 @@ export default function PicCarousel () {
           <Col sm={12} className="p-0">
             <Carousel>
               <Carousel.Item>
-                <img src="https://picsum.photos/300/200/?random-1" 
-                className="d-block w-100"
+                <img src="/images/scale-image.png"
+                className="d-block w-100 scale-image"
                 alt="slide 1" />
                 <Carousel.Caption>
-                <h2>First Item</h2>
-                <p>First Items are great because they come first in line.</p>
                 </Carousel.Caption>
+                <p>This is one of the first webpages I worked on, it's an information page on how civilizations are classed from least advanced to most advanced.</p>
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="https://picsum.photos/300/200/?random-2" 
-                className="d-block w-100"
+                <img src="/images/clock.png" 
+                className="d-block w-100 clock-image"
                 alt="slide 2" />
                 <Carousel.Caption>
-                <h2>Second Item</h2>
-                <p>My second item in my first carousel.</p>
                 </Carousel.Caption>
+                <p>This is a simple clock I made using React.</p>
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="https://picsum.photos/300/200/?random-3" 
-                className="d-block w-100"
+                <img src="/images/counter.png" 
+                className="d-block w-100 counter-image"
                 alt="slide 3" />
                 <Carousel.Caption>
-                <h2>Third Item</h2>
-                <p>My third item, lorem ipsum</p>
                 </Carousel.Caption>
+                <p>This is a simple Counter app that I made in React.</p>
               </Carousel.Item>
             </Carousel>
           </Col>

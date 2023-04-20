@@ -5,7 +5,11 @@
 }
 
 .App {
-  background-color: whitesmoke;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/yti7UrAkQQuAjmusqpg_mboD8v8=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23406204/GettyImages_1346022120.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-color: whitesmoke; */
 }
 
 .hero-text {
@@ -15,6 +19,13 @@
 h1 {
   font-weight: 900;
   padding: 15px;
+}
+
+.about-p {
+  font-weight: 700;
+  background-color: lightblue;
+  border-radius: 15px;
+  border: 4px solid black; 
 }
 
 h2 {
@@ -29,6 +40,11 @@ h2 {
   padding: 15px;
 }
 
+.carousel-container p {
+  background-color: lightgray;
+  padding: 15px;
+}
+
 .quote-container p {
   font-size: clamp(23px, 4vw, 26px);
   font-weight: 700;
@@ -36,6 +52,15 @@ h2 {
 
 .quote-container q {
   font-size: 105%;
+}
+
+.quote-container:hover {
+  cursor: pointer;
+}
+
+.scale-image, .clock-image, .counter-image {
+  width: 100%;
+  height: auto;
 }
 
 /* .grid-container {
