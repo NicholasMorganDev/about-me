@@ -1,4 +1,5 @@
 import { Col, Container, Row, Carousel } from "react-bootstrap";
+import Counter from "./Counter";
 
 export default function PicCarousel () {
 
@@ -27,12 +28,17 @@ export default function PicCarousel () {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="/images/counter.png" 
+                <Counter/>
+                <p>This is a simple Counter that I made in React. P.S. It works!</p>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img src="/images/quiz.png" 
                 className="d-block w-100 counter-image"
-                alt="slide 3" />
+                alt="slide 4" />
                 <Carousel.Caption>
                 </Carousel.Caption>
-                <p>This is a simple Counter app that I made in React.</p>
+                <p>This is a recent quiz app I made in react using bootstrap.</p>
               </Carousel.Item>
             </Carousel>
           </Col>

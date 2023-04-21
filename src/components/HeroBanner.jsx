@@ -4,7 +4,7 @@ export default function HeroBanner () {
 
   return (
     <section>
-      <Container fluid className="bg-danger text-center hero-text p-3">
+      <Container fluid className="bg-warning text-center hero-text p-3">
         <Row>
           <Col>
             Welcome to my Profile Page!

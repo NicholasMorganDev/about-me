@@ -17,9 +17,8 @@ function App() {
       <HeroBanner/>
       <About/>
       <Grid/>
-      <Quote/>
       <PicCarousel/>
-      <Video/>
+      <Quote/>
       <Footer/>
     </div>
   );

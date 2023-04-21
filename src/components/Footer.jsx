@@ -9,7 +9,7 @@ export default function  Footer () {
         <Row>
           <Col className="text-center">
             <p>&copy; {currentYear} Nicholas Morgan <br/>
-            <a href={gitHubUrl} rel='noreferrer' target="_blank">Code In Github</a></p>
+            <a className="git-link" href={gitHubUrl} rel='noreferrer' target="_blank">Code In Github</a></p>
           </Col>
         </Row>
       </Container>
