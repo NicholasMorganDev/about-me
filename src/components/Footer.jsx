@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export default function  Footer () {
   const currentYear = new Date().getFullYear();
-  const gitHubUrl = "https://github.com/bocacode/NicholasMorganDev"
+  const gitHubUrl = "https://github.com/NicholasMorganDev"
   return (
     <footer>
       <Container>

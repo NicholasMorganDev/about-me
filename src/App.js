@@ -5,7 +5,6 @@ import PicCarousel from './components/PicCarousel';
 import Footer from './components/Footer';
 import Grid from './components/Grid';
 import Quote from './components/Quote';
-import Video from './components/Video';
 import HeroBanner from './components/HeroBanner';
 
 import "bootstrap/dist/css/bootstrap.min.css";
