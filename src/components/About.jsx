@@ -8,7 +8,7 @@ export default function About () {
       <Row className="text-center">
 
         <Col sm={12} md={6}>
-          <img src="/images/profile-pic.jpeg" 
+          <img src="/images/pic.jpg" 
           alt='profile' 
           className="rounded-circle profile-image"/>
         </Col>
